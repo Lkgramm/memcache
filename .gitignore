@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Environments
+.venv/
+.env
+env/
+.venv*/
+
+# Poetry
+poetry.lock
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Protobuf generated files (optional)
+src/memc_load/appsinstalled_pb2.py
