@@ -1,33 +1,39 @@
-# Python
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *.so
+
+# C extensions
+*.pyd
+
+# Distribution / packaging
 *.egg
 *.egg-info/
 dist/
 build/
-*.log
-
-# Environments
-.venv/
-.env
-env/
-.venv*/
 
 # Poetry
 poetry.lock
+.venv/
+.venv*/
 
-# Mypy
-.mypy_cache/
-.dmypy.json
-
-# Pytest
+# Test / coverage
 .cache/
 .pytest_cache/
+.mypy_cache/
 
 # IDEs
 .vscode/
 .idea/
 
-# Protobuf generated files (optional)
-src/memc_load/appsinstalled_pb2.py
+# Environment variables
+.env
+*.env
+
+# Logs
+*.log
+
+# sample data
+*.tsv.gz
+*.tsv
+.*.tsv
